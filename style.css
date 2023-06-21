@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "poppins", "san-serif";
+  /* max-width: 58em; */
+  margin-inline: auto;
+  height: 100vh;
+  background-color: #F7E6CD;
+}
+
+header {
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+header div{
+  display: flex;
+  
+}
+.yellow-text{
+  color: #F4AD00;
+}
+.main-heading{
+  font-size: 42px;
+  font-weight: 600;
+}
+.secondary-heading{
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 30px;
+  margin-top: 12px;
+}
+header img{
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 1.5rem;
+  height: 0.2rem;
+  margin: 0.3rem auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+.left {
+  display: flex;
+}
+.left ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.left ul a {
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  color: var(--grayish-violet);
+  cursor: pointer;
+}
+.sm {
+  display: none;
+}
+.right {
+  margin-left: 0.5rem;
+}
+.right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.right ul a {
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  color: var(--grayish-violet);
+  cursor: pointer;
+}
+.right ul .active {
+  background: cyan;
+  padding: 0.4rem 1.2rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  max-width: 30rem;
+}
+.content h1 {
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+.content p {
+  color: var(--grayish-violet);
+  margin: 0.5rem;
+}
+.content .btn {
+  background: cyan;
+  padding: 0.5rem 1.7rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+}
+.image img {
+  width: 85%;
+}
+
+input {
+  padding: 0.6rem 0.3rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  /* margin: 0.5rem; */
+  flex: 1;
+}
+.input-container {
+  margin-top: 1.5rem;
+  width: 100%;  
+}
+.input-container{
+  width: 100%;
+}
+.image-side{
+  width: 100%;
+}
+.input-text{
+  padding: 12px;
+  border-radius: 0.4rem;
+  width: 70%;
+  font-size: 16px;
+  border: #000 2px solid;
+}
+.input-btn {
+  padding: 12px;
+  border-radius: 0.4rem;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  background: #F4AD00;
+  cursor: pointer;
+  border: #000 2px solid;
+}
+
+.services {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.service-content {
+  max-width: 30rem;
+}
+.service-content p {
+  color: var(--grayish-violet);
+}
+.cards {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.card p {
+  color: rgb(52, 44, 44);
+}
+.card {
+  margin: 2rem;
+  max-width: 20rem;
+}
+.card1 {
+  background: #eff1f7;
+  padding: 1rem 0.2rem;
+  border-radius: 0.3rem;
+}
+.card2 {
+  background: #eff1f7;
+  padding: 1rem 0.2rem;
+  border-radius: 0.3rem;
+}
+.card3 {
+  background: #eff1f7;
+  padding: 1rem 0.2rem;
+  border-radius: 0.3rem;
+}
+.boost {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-violet);
+  padding: 1.8rem;
+  position: relative;
+  gap: 2rem;
+  color: #fff;
+}
+
+.boost .btn {
+  background: cyan;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+}
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--very-dark-blue);
+}
+
+.footer-links {
+  margin-top: 2rem;
+}
+ul li {
+  color: var(--grayish-violet);
+  margin: 0.2rem 0;
+  list-style: none;
+}
+ul :nth-child(1) {
+  color: #fff;
+  font-weight: bold;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+.social-links {
+  padding: 0.4rem 0.5rem;
+  margin-top: 2rem;
+}
+.logo {
+  margin-top: 2rem;
+}
+
+.result .item {
+  margin-top: 16px;
+  margin-right:8px;
+  display: flex;
+  margin-inline: auto;
+}
+.newUrl-btn {
+  margin-left: 20px;
+  padding: 0.3rem  0.5rem;
+  border-radius: 0.4rem;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  background: #F4AD00;
+  cursor: pointer;
+  border: #000 2px solid;
+}

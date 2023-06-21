@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link shortening</title>
+    <meta name="title" content="Link shortening" />
+    <meta name="description" content="just a click to shorten your URL " />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>URL Shortner</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="./images//Shortly Logo.svg" alt="" />
+        <div>
+          <h2>Shortly</h2>
+        </div>
+      </div>
+    </header>
+    <main class="main-body" style="width: 100%; display:flex;padding: 10px;">
+      <div style="width: 60%;padding-left: 12px; margin-top: 16px;">
+        <div>
+          <h1 class="main-heading">More than just <span class="yellow-text">Shorter links</span>
+          </h1>
+          <p class="secondary-heading">Build your brands recognition and get detailed insights on how your links are performing.</p>
+        </div>
+        <section class="link-input">
+          <form class="input-container">
+            <input type="text" class="input-text" placeholder="Shorten a link here" required />
+            <button type="submit" class="input-btn">Shorten it!</button>
+          </form>
+        </section>
+        <div class="result"></div>
+      </div>
+      <div style="width: 40%;padding: 8px;">
+        <img class="image-side" src="./images/Group 33789.svg" alt="">
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
